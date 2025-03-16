@@ -1,0 +1,70 @@
+.voice-assistant-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Light background for the entire layout */
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  gap: 20px; /* Space between camera feed and conversation */
+  margin-bottom: 20px; /* Space between main content and visualizer */
+}
+
+.video-container {
+  flex: 1; /* Take up 1 part of the available space */
+  max-width: 400px; /* Fixed width for the camera feed */
+}
+
+.camera-feed {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Increased height for the camera feed */
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.conversation {
+  flex: 2; /* Take up 2 parts of the available space */
+  padding: 20px;
+  height: 200px; /* Fixed height for the conversation section */
+  overflow-y: auto; /* Enable scrolling for overflow */
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.visualizer-container {
+  width: 100%;
+  height: 200px; /* Fixed height for the bar visualizer */
+  background-color: #f0f0f0; /* Background color for the visualizer */
+  border-radius: 8px;
+  margin-bottom: 20px; /* Space between visualizer and control bar */
+}
+
+.control-section {
+  width: 100%;
+  max-width: 800px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message-agent {
+  color: #4a90e2;
+}
+
+.message-user {
+  color: #2ecc71;
+}
+
+.message-text {
+  color: #333;
+}
