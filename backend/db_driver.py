@@ -413,7 +413,7 @@ def oopen_website(query):
 
 
 def fetch_news(self):
-        r=requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWS_API_KEY}") 
+        r=requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWSAPIKEY}") 
         if r.status_code==200:
             print("printing the raw text")
             data=r.json()
