@@ -19,16 +19,7 @@ Matter varchar(60),
 status varchar(50)
 );
 
-Create table bank_details(
-Sbi_ACCOUNT VARCHAR(50),
-HDFC_ACCOUNT VARCHAR(50),
-SBI_DEBIT VARCHAR(50),
-HDFC_CREDIT VARCHAR(50),
-HDFC_CREDIT_CVV VARCHAR(50),
-HDFC_DEBIT VARCHAR(50),
-AXIS_CREDIT VARCHAR(50),
-AXIS_CREDIT_CVV VARCHAR(50)
-);
+
 
 
 select * from Alarm;
